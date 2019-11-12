@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    <link rel="stylesheet" type="text/css" href="marc_part.css">
+    <script src="marc_part.js"></script>
+</head>
+
+<body>
+
+<nav aria-labelledby="mainnavigationbar">
+    <ul> 
+        <li> <a href="udev.html"> Home </a> </li>
+        <li> <a href="udev.html"> Schedule </a> </li>
+        <li> <a href="marc_part.html" aria-current="page"> Me and Friends </a> </li>
+        <li> <a href="udev.html"> Begineer's Guide </a> </li>
+    </ul>
+</nav>
+
+<br>
+
+<dow>
+    <ul> 
+        <li onclick="displayBox(0)"> Monday </li>
+        <li onclick="displayBox(1)"> Tuesday </li>
+        <li onclick="displayBox(1)"> Wednesday </li>
+        <li onclick="displayBox(1)"> Thursday </li>
+        <li onclick="displayBox(1)"> Friday </li>
+    </ul>
+</dow>
+
+<div class="text-box-format">
+    <div id="text-box"> 
+        <div id="close" onclick="hideBox()">&times;</div>
+        <div id="text-content"> 
+            <div id="title"> Monday </div> 
+            60 minutes.
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
