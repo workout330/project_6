@@ -1,4 +1,12 @@
 
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
 nav li a:visited {
     color: lavenderblush;
 }
@@ -38,6 +46,8 @@ dow li:hover {
     justify-content: center;
     align-items: center;
     margin-top: -200px;
+    outline: 2px black;
+    outline-color: black;
 }
 
 #text-box { 
@@ -47,6 +57,9 @@ dow li:hover {
     width: 25%; 
     height: 50%;
     background-color: white;
+    outline: 2px black;
+    outline-color: black;
+
 }
 
 #close { 

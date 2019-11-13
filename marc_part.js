@@ -20,3 +20,8 @@ function hideBox() {
     var show = document.getElementById("text-box") 
     show.style.display = "none" 
 }
+
+function changeIMG(){
+    var image = document.getElementById('IMAGE')
+    image.setAttribute("src", "Friends.png")
+}
