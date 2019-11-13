@@ -1,38 +1,25 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
-nav li { 
-    float: left;
-    border-right: 1px solid lightcyan;
-}
-
-nav li a {
-    position: relative;
-    display: block;
-    color: lightcyan;
-    text-align: center;
-    padding: 20px 20px;
-    text-decoration: none;
-}
-
-nav li a:visited { 
+nav li a:visited {
     color: lavenderblush;
 }
 
-nav li a:active { 
+nav li a:active {
     background-color: lightcoral;
 }
 
-nav li a:hover { 
+nav li a:hover {
     background-color: lightcoral;
 }
 
-nav [aria-current=page] { 
+nav [aria-current=page] {
     background-color: lightcoral;
 }
 
@@ -59,6 +46,8 @@ dow li:hover {
     justify-content: center;
     align-items: center;
     margin-top: -200px;
+    outline: 2px black;
+    outline-color: black;
 }
 
 #text-box { 
@@ -68,6 +57,9 @@ dow li:hover {
     width: 25%; 
     height: 50%;
     background-color: white;
+    outline: 2px black;
+    outline-color: black;
+
 }
 
 #close { 
