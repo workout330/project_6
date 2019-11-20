@@ -1,4 +1,22 @@
+body{
+    background-color: aliceblue;
+    color:aliceblue;
+}
 
+#hoursForm{
+    width: 60%;
+    height: 50%;
+}
+
+
+.navbar{
+    background-color: darkslateblue;
+    border-color: darkslateblue;
+}
+#options{
+    margin-top: 110px;
+    height: 50px;
+}
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -7,23 +25,24 @@
     margin-bottom: 20px;
 }
 
+
 nav li a:visited {
-    color: lavenderblush;
+    color: aliceblue;
 }
 
 nav li a:active {
-    background-color: lightcoral;
+    background-color: plum;
 }
 
 nav li a:hover {
-    background-color: lightcoral;
+    background-color: plum;
 }
 
 nav [aria-current=page] {
-    background-color: lightcoral;
+    background-color: plum;
 }
 
-dow { 
+dow {
     position: relative;
 }
 
@@ -36,12 +55,12 @@ dow li {
     text-decoration: none;
 }
 
-dow li:hover { 
+dow li:hover {
     background-color: gray;
 }
 
-.text-box-format { 
-    display: flex; 
+.text-box-format {
+    display: flex;
     height: 200px;
     justify-content: center;
     align-items: center;
@@ -50,11 +69,11 @@ dow li:hover {
     outline-color: black;
 }
 
-#text-box { 
+#text-box {
     position: relative;
-    display: none; 
-    z-index: 1; 
-    width: 25%; 
+    display: none;
+    z-index: 1;
+    width: 25%;
     height: 50%;
     background-color: white;
     outline: 2px black;
@@ -62,25 +81,25 @@ dow li:hover {
 
 }
 
-#close { 
-    color: gray; 
-    font-weight: bold; 
-    font-size: 40px; 
+#close {
+    color: gray;
+    font-weight: bold;
+    font-size: 40px;
     display: block;
     float: right;
     margin-right: 10px;
 }
 
-#close:hover { 
+#close:hover {
     color: royalblue;
 }
 
-#text-content { 
+#text-content {
     padding: 30px;
-    text-align: center; 
+    text-align: center;
 }
 
-#title { 
-    font-size: 25px; 
+#title {
+    font-size: 25px;
     font-weight: bold;
 }
